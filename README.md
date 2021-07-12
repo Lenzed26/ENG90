@@ -49,4 +49,11 @@ All git commands begin with git
 - status - displays current status of the repository (which branch you're on, what files are ready for commits)
 - add [filename] - moves file name to staging area (one step before committing)
 - commit --m "[message]" - commits files in the staging area into a snapshot of the current stage
+- reset - resets the staging area
+- branch [-D [branchname]]  - displays all current branches in the repository, -D deletes target branch
+- checkout -b [branchname] - switches to another branch
+- merge [branchname] - merge current branch into target branch
+- push - pushes commited changes into remote repository
+- pull - retrieves remote repository
+- pull [remotebranch] [localbranch] - merges remote branch into local branch
 
